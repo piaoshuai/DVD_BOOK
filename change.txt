@@ -1,0 +1,36 @@
+chapter 1:
+GPIO LED BOOT.BIN -> useful BOOT.BIN
+
+chapter 9: 
+src:
+9.1  zedboard_RevC_v1 -> zedboard_RevC_v2
+solution:
+9.1  HelloZynq -> HelloZynq(14.6)
+9.3  zedboard_RevC_v1 -> zedboard_RevC_v2
+
+chapter 12:
+solution:
+12.4  AutoESL -> AutoESL_test(14.6)
+
+chapter 13:
+src:
+13.1  PWM_IP_test -> PWM_IP_test(14.6)
+13.4  cf_adv7511_zed -> cf_adv7511_zed(14.6)
+solution:
+13.1  PWM_IP_test -> PWM_IP_test(14.6)
+13.3  BOOT.BIN -> useful BOOT.BIN;  u-boot.elf -> useful u-boot.elf
+13.4  cf_adv7511_zed -> cf_adv7511_zed(14.6)
+13.10  Zynq_FreeRTOS -> Zynq_FreeRTOS(14.6)
+13.11  zynq_XADC -> zynq_XADC(14.6)
+
+chapter 14:
+src:
+14.4  zedB_gpio_vga -> zedB_gpio_vga(14.6) 
+solution:
+14.1  double_closed_loop -> double_closed_loop(14.6)  
+14.2  xps_proj ->  xps_proj(14.6)
+
+
+P187
+download u-boot source from here:
+git clone http://github.com/Digilent/u-boot-digilent

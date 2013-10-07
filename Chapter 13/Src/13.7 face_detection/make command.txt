@@ -1,0 +1,6 @@
+##please replace your path into following command line.##
+
+X86:
+g++ ./face_detection.cpp -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -o ./face_detection_x86.o
+ARM:
+arm-xilinx-linux-gnueabi-g++ ./face_detection_armv2.cpp -I/home/boat/BuildLib/OpenCV-2.3.1-ZYNQ/lib/include -L/home/boat/BuildLib/OpenCV-2.3.1-ZYNQ/lib/lib -lopencv_core -lopencv_imgproc -lopencv_highgui -lopencv_ml -lopencv_video -lopencv_features2d -lopencv_calib3d -lopencv_objdetect -lopencv_contrib -lopencv_legacy -lopencv_flann -o ./face_detection_arm.o
